@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* -------------------------------- beginning of Header --------------------------------- */
+
+.header 
+{
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.navigation_bar {
+    width: 100%;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.navigation_bar a {
+    float: right;
+    font: 18px Alegreya, serif;
+    color: #8e7754;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.navigation_bar img {
+    float: left;
+    width: 20%;
+}
+
+.custom_website {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    background-color: white;
+    width: 40px;
+    height: 80px;
+    padding: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 2;
+    box-shadow: black;
+}
+
+.custom_website img {
+    width: 100%;
+}
+
+.header_text {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font: 76px Alegreya, serif;
+    padding: 10px 0;
+}
+
+.header p {
+    font: 24px Alegreya Sans, sans-serif;
+    padding: 10px 0;
+}
+
+#btn_one,
+#btn_two {
+    font: bold 16px Alegreya sans, sans-serif;
+    color: white;
+    padding: 15px 25px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#btn_one {
+    border: 2px solid #8e7754;
+    background-color: #8e7754;
+}
+
+#btn_two {
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+
+/* -------------------------------- beginning of section one --------------------------------- */
+
+.section_one {
+    padding: 25px 10%;
+    text-align: left;
+}
+
+.section_one .text {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+.section_one h3 {
+    font: 32px Alegreya, serif;
+    padding: 15px;
+}
+
+.section_one p {
+    font: 16px Alegreya sans, sans-serif;
+    line-height: 30px;
+    padding: 15px;
+    color: #686868;
+}
+
+.section_one li {
+    font: 16px Alegreya sans, sans-serif;
+    line-height: 30px;
+    padding: 15px;
+    color: #686868;
+}
+
+.section_one img {
+    width: 100%;
+}
+
+.section_one .img {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin: 0;
+}
+
+
+/* -------------------------------- beginning of section two --------------------------------- */
+
+.section_two {
+    padding: 25px 10%;
+    text-align: left;
+    background-color: #f8f8f8;
+}
+
+.section_two .text {
+    float: right;
+    width: 50%;
+    padding: 15px 0;
+}
+
+.section_two h3 {
+    font: 32px Alegreya, serif;
+    padding: 15px;
+}
+
+.section_two p {
+    font: 16px Alegreya sans, sans-serif;
+    line-height: 30px;
+    padding: 15px;
+    color: #686868;
+}
+
+.section_two img {
+    width: 100%;
+}
+
+.section_two .img {
+    width: 50%;
+    float: right;
+    padding: 15px;
+    margin: 0;
+}
+
+
+/* -------------------------------- beginning of section three --------------------------------- */
+
+.section_three {
+    padding: 25px 10%;
+    text-align: center;
+}
+
+.section_three h3 {
+    font: 32px Alegreya, serif;
+    padding: 20px;
+}
+
+.section_three h6 {
+    font: 22px Alegreya, serif;
+    padding: 20px;
+}
+
+.section_three p {
+    font: 16px Alegreya sans, sans-serif;
+    padding: 20px;
+    color: #686868;
+}
+
+.section_three .column {
+    float: left;
+    width: 33.333%;
+    padding: 20px;
+}
+
+.column img {
+    width: 100%;
+}
+
+
+/* -------------------------------- beginning of section four --------------------------------- */
+
+.section_four {
+    padding: 25px 10%;
+    text-align: left;
+    background-color: #f8f8f8;
+}
+
+.section_four .text {
+    float: left;
+    width: 50%;
+    padding: 30px 0;
+}
+
+.section_four h3 {
+    font: 32px Alegreya, serif;
+    padding: 15px;
+}
+
+.section_four p {
+    font: 16px Alegreya sans, sans-serif;
+    padding: 15px 15px;
+    color: #686868;
+    line-height: 30px;
+}
+
+.section_four li {
+    font: 16px Alegreya sans, sans-serif;
+    padding: 15px 15px;
+    color: #686868;
+}
+
+.section_four iframe {
+    width: 100%;
+}
+
+.section_four .iframe {
+    float: left;
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+}
+
+
+/* -------------------------------- beginning of section_five --------------------------------- */
+
+.section_five {
+    padding: 25px 10%;
+    text-align: left;
+    background-color: #403d38;
+}
+
+.section_five .column {
+    float: left;
+    width: 25%;
+    padding: 10px 5px;
+}
+
+.section_five h3 {
+    font: 18px Alegreya, serif;
+    color: white;
+    padding: 10px;
+}
+
+.section_five p {
+    font: 16px Alegreya sans, sans-serif;
+    padding: 10px 0;
+    color: #969696;
+}
+
+.section_five li {
+    font: 16px Alegreya sans, sans-serif;
+    padding: 1rem;
+    color: #969696;
+}
+
+.map {
+    background-image: url(../images/contact-details-map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.line {
+    background-color: #524d45;
+    height: 0.25px;
+    width: 100%;
+}
+
+
+/* -------------------------------- beginning of footer --------------------------------- */
+
+.footer {
+    background-color: #353330;
+    padding: 25px;
+    text-align: center;
+}
+
+.footer img {
+    margin: auto;
+}
+
+.footer p {
+    font: 16px Alegreya sans, sans-serif;
+    padding: 10px 0;
+    color: #969696;
+    line-height: 30px;
+}
+
+
+/* -------------------------------- beginning of media query --------------------------------- */
+
+@media screen and (max-width:600px) {
+    .section_one .text {
+        width: 100%;
+    }
+    .section_one .img {
+        width: 100%;
+    }
+    .section_two .text {
+        width: 100%;
+    }
+    .section_two .img {
+        width: 100%;
+    }
+    .section_three .column {
+        width: 100%;
+    }
+    .section_four .text {
+        width: 100%;
+    }
+    .section_four .iframe {
+        width: 100%;
+    }
+    .section_five .column {
+        width: 50%;
+    }
+    .navigation_bar {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    .section_one .text {
+        width: 100%;
+    }
+    .section_one .img {
+        width: 100%;
+    }
+    .section_two .text {
+        width: 100%;
+    }
+    .section_two .img {
+        width: 100%;
+    }
+    .section_three .column {
+        width: 100%;
+    }
+    .section_four .text {
+        width: 100%;
+    }
+    .section_four .iframe {
+        width: 100%;
+    }
+    .section_five .column {
+        width: 50%;
+    }
+    .navigation_bar {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .section_one .text {
+        width: 100%;
+    }
+    .section_one .img {
+        width: 100%;
+    }
+    .section_two .text {
+        width: 100%;
+    }
+    .section_two .img {
+        width: 100%;
+    }
+    .section_three .column {
+        width: 100%;
+    }
+    .section_four .text {
+        width: 100%;
+    }
+    .section_four .iframe {
+        width: 100%;
+    }
+    .section_five .column {
+        width: 50%;
+    }
+    .navigation_bar {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .section_one .text {
+        width: 50%;
+    }
+    .section_one .img {
+        width: 50%;
+    }
+    .section_two .text {
+        width: 50%;
+    }
+    .section_two .img {
+        width: 50%;
+    }
+    .section_three .column {
+        width: 33.333%;
+    }
+    .section_four .text {
+        width: 50%;
+    }
+    .section_four .iframe {
+        width: 50%;
+    }
+    .section_five .column {
+        width: 25%;
+    }
+    .navigation_bar {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .section_one .text {
+        width: 50%;
+    }
+    .section_one .img {
+        width: 50%;
+    }
+    .section_two .text {
+        width: 50%;
+    }
+    .section_two .img {
+        width: 50%;
+    }
+    .section_three .column {
+        width: 33.333%;
+    }
+    .section_four .text {
+        width: 50%;
+    }
+    .section_four .iframe {
+        width: 50%;
+    }
+    .section_five .column {
+        width: 25%;
+    }
+}
